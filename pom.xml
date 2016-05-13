@@ -291,17 +291,17 @@
 			</dependency>
 
 			<!-- Databases - Uses HSQL by default -->
-			<!-- <dependency>
+			<dependency>
 				<groupId>mysql</groupId>
 				<artifactId>mysql-connector-java</artifactId>
 				<version>${mysql.version}</version>
-			</dependency> -->
-			<dependency>
+			</dependency> 
+			<!-- <dependency>
 				<groupId>org.hsqldb</groupId>
 				<artifactId>hsqldb</artifactId>
 				<version>${hsqldb.version}</version>
 				<scope>runtime</scope>
-			</dependency>
+			</dependency> -->
 			<dependency>
 				<groupId>javax.servlet.jsp.jstl</groupId>
 				<artifactId>jstl-api</artifactId>
@@ -320,11 +320,11 @@
 			</dependency>
 
 			<!-- MySQL JDBC Connector -->
-			<dependency>
+			<!--<dependency>
 				<groupId>mysql</groupId>
 				<artifactId>mysql-connector-java</artifactId>
 				<version>${mysql.version}</version>
-			</dependency>
+			</dependency>-->
 
 			<dependency>
 				<groupId>net.sf.ehcache</groupId>
@@ -584,18 +584,18 @@
 		<!-- <dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-		</dependency> -->
+		</dependency> 
 		<dependency>
 			<groupId>org.hsqldb</groupId>
 			<artifactId>hsqldb</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency>-->
 
 		<!-- For MySql only -->
-		<!-- <dependency>
+		 <dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-		</dependency> -->
+		</dependency> 
 		<!-- HIBERNATE -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
